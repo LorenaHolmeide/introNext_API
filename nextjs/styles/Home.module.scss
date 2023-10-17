@@ -1,0 +1,40 @@
+@import './variables.scss';
+@import './navigation.scss';
+@import './layout.scss';
+
+.h3 {
+    padding: 1rem 1rem 0;
+    margin: 0;
+  }
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.itemList {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.linkAlbums{
+  font-size: 28px;
+}
+.error-message{
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.5rem;
+
+}
+
+

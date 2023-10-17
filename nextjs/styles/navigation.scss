@@ -1,0 +1,17 @@
+@import './variables.scss';
+.navigation {
+    background-color: $navigationBackgroundColor;
+
+    ul {
+        margin: 0;
+        padding: 0.5rem 2rem;
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        font-size: 24px;
+
+        .items {
+            color: $itemsColor;
+        }
+    }
+}
